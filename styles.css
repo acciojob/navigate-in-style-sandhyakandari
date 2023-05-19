@@ -1,11 +1,16 @@
 /*  your css code here. If applicable */
-.nav{padding:10px;	
+.container{padding:10px;
+		   background-color:#D3D3D3;
+		   display:inline;
 }
-.nav li{display:inline;
+.container li{;
 	margin-right:1rem;
 		list-style:none;
 }
-.nav a{
+.container ul{
+	display:flex;
+}
+.container a{
  text-decoration:none;	
 }
 
